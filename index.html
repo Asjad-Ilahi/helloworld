@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>سالگرہ مبارک میری جان</title>
+  <meta name="theme-color" content="#fbd3e0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+</head>
+<body class="locked">
+
+<!-- ============ reusable SVG shapes ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- pink teddy bear holding a heart -->
+    <symbol id="teddy" viewBox="0 0 200 232">
+      <circle cx="50" cy="46" r="27" fill="#f2a0bd"/>
+      <circle cx="50" cy="46" r="15" fill="#fcd6e3"/>
+      <circle cx="150" cy="46" r="27" fill="#f2a0bd"/>
+      <circle cx="150" cy="46" r="15" fill="#fcd6e3"/>
+      <ellipse cx="100" cy="160" rx="60" ry="56" fill="#f2a0bd"/>
+      <ellipse cx="100" cy="170" rx="38" ry="38" fill="#fcd6e3"/>
+      <ellipse cx="60" cy="210" rx="25" ry="19" fill="#f2a0bd"/>
+      <ellipse cx="60" cy="212" rx="13" ry="10" fill="#fcd6e3"/>
+      <ellipse cx="140" cy="210" rx="25" ry="19" fill="#f2a0bd"/>
+      <ellipse cx="140" cy="212" rx="13" ry="10" fill="#fcd6e3"/>
+      <circle cx="100" cy="86" r="54" fill="#f6b3ca"/>
+      <ellipse cx="100" cy="104" rx="25" ry="19" fill="#fde5ee"/>
+      <ellipse cx="100" cy="95" rx="8.5" ry="6.5" fill="#7a2e4a"/>
+      <path d="M100 101 q0 8 -8 10 M100 101 q0 8 8 10" stroke="#7a2e4a" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+      <g class="eyes">
+        <circle cx="77" cy="77" r="6.5" fill="#4a1f30"/>
+        <circle cx="123" cy="77" r="6.5" fill="#4a1f30"/>
+        <circle cx="79.5" cy="74.5" r="2.2" fill="#fff"/>
+        <circle cx="125.5" cy="74.5" r="2.2" fill="#fff"/>
+      </g>
+      <ellipse cx="66" cy="100" rx="10" ry="5.5" fill="#ec6f9a" opacity=".55"/>
+      <ellipse cx="134" cy="100" rx="10" ry="5.5" fill="#ec6f9a" opacity=".55"/>
+      <path d="M100 148 c-13 -18 -42 -6 -28 16 l28 26 l28 -26 c14 -22 -15 -34 -28 -16z" fill="#e0457b"/>
+      <path d="M86 146 q-6 2 -8 9" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity=".7"/>
+      <ellipse cx="62" cy="160" rx="16" ry="24" transform="rotate(-32 62 160)" fill="#f2a0bd"/>
+      <ellipse cx="138" cy="160" rx="16" ry="24" transform="rotate(32 138 160)" fill="#f2a0bd"/>
+    </symbol>
+
+    <!-- single cherry blossom flower -->
+    <symbol id="sakura" viewBox="-50 -50 100 100">
+      <g fill="#f7b6cc" stroke="#ec8fb0" stroke-width="1.2">
+        <path id="petal" d="M0 -4 C -16 -14 -18 -36 -6 -44 L 0 -38 L 6 -44 C 18 -36 16 -14 0 -4Z"/>
+        <use href="#petal" transform="rotate(72)"/>
+        <use href="#petal" transform="rotate(144)"/>
+        <use href="#petal" transform="rotate(216)"/>
+        <use href="#petal" transform="rotate(288)"/>
+      </g>
+      <circle r="9" fill="#e86a96"/>
+      <g stroke="#c2185b" stroke-width="1.4" stroke-linecap="round">
+        <line x1="0" y1="0" x2="0" y2="-16"/><line x1="0" y1="0" x2="15" y2="-5"/>
+        <line x1="0" y1="0" x2="9" y2="13"/><line x1="0" y1="0" x2="-9" y2="13"/>
+        <line x1="0" y1="0" x2="-15" y2="-5"/>
+      </g>
+      <g fill="#fff3a8"><circle cy="-17" r="2.4"/><circle cx="16" cy="-5" r="2.4"/><circle cx="10" cy="14" r="2.4"/><circle cx="-10" cy="14" r="2.4"/><circle cx="-16" cy="-5" r="2.4"/></g>
+    </symbol>
+
+    <!-- blossom branch divider -->
+    <symbol id="branch" viewBox="0 0 400 60">
+      <path d="M10 40 C 90 20, 160 50, 230 30 S 340 18, 390 26" stroke="#7b4a4a" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M120 36 q 14 -18 34 -22 M260 28 q 10 16 30 20" stroke="#7b4a4a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <use href="#sakura" x="40" y="14" width="30" height="30"/>
+      <use href="#sakura" x="140" y="0" width="26" height="26"/>
+      <use href="#sakura" x="200" y="22" width="34" height="34"/>
+      <use href="#sakura" x="282" y="34" width="24" height="24"/>
+      <use href="#sakura" x="330" y="2" width="30" height="30"/>
+      <circle cx="96" cy="32" r="5" fill="#f7b6cc"/><circle cx="250" cy="22" r="4" fill="#fcd6e3"/><circle cx="372" cy="22" r="4" fill="#f7b6cc"/>
+    </symbol>
+  </defs>
+</svg>
+
+<canvas id="petals" aria-hidden="true"></canvas>
+
+<!-- ============ INTRO: the envelope ============ -->
+<section id="intro" aria-label="خط">
+  <div class="intro-glow"></div>
+  <h1 class="intro-title">سالگرہ مبارک میری جان <span class="em">🎂</span></h1>
+
+  <div class="envelope-wrap">
+    <svg class="teddy intro-teddy" aria-hidden="true"><use href="#teddy"/></svg>
+    <button class="envelope" id="envelope" aria-label="یہ خط کھولو">
+      <div class="letter">
+        <div class="letter-inner">
+          <span class="letter-small">پیاری <span class="her-name"></span>،</span>
+          <span class="letter-big">سالگرہ مبارک ہو 💗</span>
+          <span class="letter-small">تمہارے لیے کچھ خاص ہے…</span>
+        </div>
+      </div>
+      <div class="env-pocket">
+        <span class="to">میری <span class="her-name"></span> کے نام</span>
+      </div>
+      <div class="env-flap"></div>
+      <span class="seal" aria-hidden="true">
+        <svg viewBox="-50 -50 100 100"><use href="#sakura" x="-50" y="-50" width="100" height="100"/></svg>
+      </span>
+    </button>
+  </div>
+
+  <p class="open-hint">یہ خط کھولو <span class="em">💌</span></p>
+  <p class="headphones">🎧 آواز کھول لینا</p>
+</section>
+
+<!-- ============ MAIN SITE ============ -->
+<main id="site" aria-hidden="true">
+
+  <div class="progress"><span></span></div>
+
+  <!-- HERO with growing cherry tree -->
+  <section class="hero" id="hero">
+    <canvas id="tree" aria-hidden="true"></canvas>
+    <div class="hill"></div>
+    <svg class="teddy hero-teddy" aria-hidden="true"><use href="#teddy"/></svg>
+    <div class="hero-text">
+      <p class="kicker reveal">آج کا دن صرف تمہارے نام</p>
+      <h2 class="hero-title reveal">سالگرہ مبارک</h2>
+      <h3 class="hero-name reveal"><span class="her-name"></span> <span class="beat">💗</span></h3>
+      <p class="hero-sub reveal">چار سال، ہزاروں یادیں، اور ایک ہی دل — جو صرف تمہارے لیے دھڑکتا ہے۔</p>
+    </div>
+    <a class="scroll-hint" href="#years">نیچے چلو<span>⌄</span></a>
+  </section>
+
+  <!-- COUNTERS -->
+  <section class="years" id="years">
+    <svg class="divider" aria-hidden="true"><use href="#branch"/></svg>
+    <h2 class="section-title reveal">ہمارے چار سال</h2>
+    <p class="section-sub reveal">وقت گزرتا گیا، مگر محبت ہر دن بڑھتی گئی</p>
+    <div class="stats">
+      <div class="stat reveal"><b data-count="4">۰</b><span>سال</span></div>
+      <div class="stat reveal"><b data-count="48">۰</b><span>مہینے</span></div>
+      <div class="stat reveal"><b data-count="1461">۰</b><span>دن</span></div>
+      <div class="stat reveal"><b data-count="35064">۰</b><span>گھنٹے</span></div>
+      <div class="stat reveal infinity"><b>∞</b><span>پیار</span></div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="story" id="story">
+    <h2 class="section-title reveal">ہماری کہانی</h2>
+    <p class="section-sub reveal">ہر سال ایک نیا باب، ہر باب میں تم</p>
+    <ol class="timeline">
+      <li class="moment reveal">
+        <div class="dot"><svg><use href="#sakura"/></svg></div>
+        <figure><img src="assets/photos/blossom1.jpg" alt="چیری کے پھول" loading="lazy"></figure>
+        <div class="moment-text">
+          <span class="year">پہلا سال</span>
+          <h3>جب سب شروع ہوا</h3>
+          <p>وہ پہلی باتیں، وہ پہلی مسکراہٹیں… تب نہیں جانتا تھا کہ ایک دن تم میری پوری دنیا بن جاؤ گی۔</p>
+        </div>
+      </li>
+      <li class="moment reveal">
+        <div class="dot"><svg><use href="#sakura"/></svg></div>
+        <figure><img src="assets/photos/teddy1.jpg" alt="گلابی ٹیڈی بیئر" loading="lazy"></figure>
+        <div class="moment-text">
+          <span class="year">دوسرا سال</span>
+          <h3>ایک دوسرے کو سمجھنا</h3>
+          <p>ہم نے ساتھ ہنسنا سیکھا، روٹھنا اور منانا سیکھا۔ ہر چھوٹی لڑائی کے بعد ہم اور بھی قریب آ گئے۔</p>
+        </div>
+      </li>
+      <li class="moment reveal">
+        <div class="dot"><svg><use href="#sakura"/></svg></div>
+        <figure><img src="assets/photos/blossom2.jpg" alt="چیری کا درخت" loading="lazy"></figure>
+        <div class="moment-text">
+          <span class="year">تیسرا سال</span>
+          <h3>ہر حال میں ساتھ</h3>
+          <p>مشکل وقت بھی آیا، مگر تم نے میرا ہاتھ کبھی نہیں چھوڑا۔ تب سمجھ آیا کہ سچا ساتھ کسے کہتے ہیں۔</p>
+        </div>
+      </li>
+      <li class="moment reveal">
+        <div class="dot"><svg><use href="#sakura"/></svg></div>
+        <figure><img src="assets/photos/teddy2.jpg" alt="گلاب کے ساتھ ٹیڈی بیئر" loading="lazy"></figure>
+        <div class="moment-text">
+          <span class="year">چوتھا سال</span>
+          <h3>اور آج</h3>
+          <p>چار سال بعد بھی دل تمہیں دیکھ کر ویسے ہی دھڑکتا ہے جیسے پہلے دن دھڑکا تھا — بلکہ اس سے بھی زیادہ۔</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- LOVE LETTER -->
+  <section class="love-letter" id="letter">
+    <svg class="divider" aria-hidden="true"><use href="#branch"/></svg>
+    <h2 class="section-title reveal">تمہارے لیے ایک خط</h2>
+    <article class="paper" id="paper">
+      <svg class="paper-flower f1" aria-hidden="true"><use href="#sakura"/></svg>
+      <svg class="paper-flower f2" aria-hidden="true"><use href="#sakura"/></svg>
+      <p class="greet">میری پیاری <span class="her-name"></span>،</p>
+      <p class="words">سالگرہ بہت بہت مبارک ہو! اللہ تمہیں ہمیشہ خوش رکھے، ہمیشہ مسکراتا رکھے۔</p>
+      <p class="words">یہ چار سال میری زندگی کے سب سے خوبصورت سال ہیں۔ تم نے میری زندگی میں رنگ بھر دیے، میری ہر صبح کو روشن اور ہر شام کو حسین بنا دیا۔</p>
+      <p class="words">میں تم سے بے انتہا محبت کرتا ہوں۔ تم میرے لیے سب کچھ ہو — میرا سکون، میری خوشی، میری دعا، میرا آج اور میرا آنے والا کل۔</p>
+      <p class="words">ان شاء اللہ ہمارا آگے کا سفر بھی اتنا ہی خوبصورت ہوگا۔ سب کچھ اچھا ہوگا، سب ٹھیک ہو جائے گا، اور ایک دن ہماری شادی بھی ہوگی۔ بس اللہ سے بہترین کی امید ہے، اور تمہارا ساتھ ہو تو ہر امید پوری لگتی ہے۔</p>
+      <p class="sign">ہمیشہ صرف تمہارا،<br><b class="my-name"></b></p>
+    </article>
+  </section>
+
+  <!-- FLIP CARDS -->
+  <section class="you-are" id="you-are">
+    <h2 class="section-title reveal">تم میرے لیے کیا ہو؟</h2>
+    <p class="section-sub reveal">ہر کارڈ کو چھو کر دیکھو 👆</p>
+    <div class="cards">
+      <button class="card reveal"><span class="front"><i>🌸</i><b>میری مسکراہٹ</b></span><span class="back">تمہاری ایک مسکراہٹ میرا سارا دن بنا دیتی ہے۔</span></button>
+      <button class="card reveal"><span class="front"><i>🤍</i><b>میرا سکون</b></span><span class="back">تمہاری آواز سنتے ہی ہر پریشانی ختم ہو جاتی ہے۔</span></button>
+      <button class="card reveal"><span class="front"><i>🌙</i><b>میری دعا</b></span><span class="back">میری ہر دعا میں سب سے پہلے تمہارا نام آتا ہے۔</span></button>
+      <button class="card reveal"><span class="front"><i>🏡</i><b>میرا گھر</b></span><span class="back">جہاں تم ہو، وہی میرا گھر ہے۔</span></button>
+      <button class="card reveal"><span class="front"><i>✨</i><b>میری طاقت</b></span><span class="back">تم ساتھ ہو تو کوئی مشکل، مشکل نہیں لگتی۔</span></button>
+      <button class="card reveal"><span class="front"><i>💗</i><b>میری دنیا</b></span><span class="back">تم میرے لیے سب کچھ ہو — سچ میں، سب کچھ۔</span></button>
+    </div>
+  </section>
+
+  <!-- TEDDY GALLERY -->
+  <section class="teddies" id="teddies">
+    <svg class="divider" aria-hidden="true"><use href="#branch"/></svg>
+    <h2 class="section-title reveal">تمہارے ٹیڈی بیئرز 🧸</h2>
+    <p class="section-sub reveal">بالکل تمہاری طرح — نرم، گلابی اور بہت پیارے</p>
+    <div class="polaroids">
+      <figure class="polaroid reveal"><img src="assets/photos/teddy1.jpg" alt="گلابی ٹیڈی اور تحفہ" loading="lazy"><figcaption>تمہارے لیے ایک تحفہ 🎁</figcaption></figure>
+      <figure class="polaroid reveal"><img src="assets/photos/teddy3.jpg" alt="بڑا گلابی ٹیڈی" loading="lazy"><figcaption>تمہارا انتظار کرتے ہوئے</figcaption></figure>
+      <figure class="polaroid reveal"><img src="assets/photos/teddy2.jpg" alt="گلاب والا ٹیڈی" loading="lazy"><figcaption>ایک گلاب، صرف تمہارے لیے 🌹</figcaption></figure>
+      <figure class="polaroid reveal"><img src="assets/photos/blossom3.jpg" alt="چیری کے پھول" loading="lazy"><figcaption>تم جیسے نازک پھول 🌸</figcaption></figure>
+      <figure class="polaroid reveal"><img src="assets/photos/teddy4.jpg" alt="ننھا ٹیڈی" loading="lazy"><figcaption>ننھی سی، پیاری سی</figcaption></figure>
+      <figure class="polaroid reveal"><img src="assets/photos/teddy5.jpg" alt="گلابی دنیا" loading="lazy"><figcaption>ہماری گلابی دنیا 💕</figcaption></figure>
+      <figure class="polaroid reveal"><img src="assets/photos/teddy6.jpg" alt="گلابی ٹیڈی سے جھانکنا" loading="lazy"><figcaption>شرمانا تو کوئی تم سے سیکھے 🙈</figcaption></figure>
+      <figure class="polaroid reveal"><img src="assets/photos/blossom4.jpg" alt="چیری کا پھول" loading="lazy"><figcaption>بہار جیسی تم</figcaption></figure>
+    </div>
+    <div class="teddy-row" aria-hidden="true">
+      <svg class="teddy t1"><use href="#teddy"/></svg>
+      <svg class="teddy t2"><use href="#teddy"/></svg>
+      <svg class="teddy t3"><use href="#teddy"/></svg>
+    </div>
+  </section>
+
+  <!-- CAKE -->
+  <section class="cake-sec" id="cake">
+    <h2 class="section-title reveal">ایک خواہش مانگو 🤲</h2>
+    <p class="section-sub reveal">آنکھیں بند کرو، دل میں خواہش مانگو، اور موم بتیوں کو چھو کر بجھا دو</p>
+    <div class="cake reveal" id="cakeEl">
+      <div class="candles">
+        <button class="candle" aria-label="موم بتی"><span class="flame"></span></button>
+        <button class="candle" aria-label="موم بتی"><span class="flame"></span></button>
+        <button class="candle" aria-label="موم بتی"><span class="flame"></span></button>
+        <button class="candle" aria-label="موم بتی"><span class="flame"></span></button>
+      </div>
+      <div class="tier top"><span class="drip"></span></div>
+      <div class="tier bottom"><span class="drip"></span><span class="cake-text"><span class="her-name"></span></span></div>
+      <div class="plate"></div>
+    </div>
+    <button class="btn" id="blowAll">سب ایک ساتھ بجھاؤ 🌬️</button>
+    <p class="wish" id="wish">تمہاری ہر خواہش پوری ہو — آمین 🤲💗</p>
+  </section>
+
+  <!-- REASONS -->
+  <section class="reasons" id="reasons">
+    <svg class="divider" aria-hidden="true"><use href="#branch"/></svg>
+    <h2 class="section-title reveal">میں تم سے کیوں محبت کرتا ہوں؟</h2>
+    <div class="jar reveal">
+      <p class="reason" id="reason"><span>بٹن دباؤ اور دیکھو… 💌</span></p>
+      <button class="btn" id="nextReason">ایک اور وجہ 💌</button>
+      <small class="reason-count" id="reasonCount"></small>
+    </div>
+  </section>
+
+  <!-- FUTURE -->
+  <section class="future" id="future">
+    <img class="future-bg" src="assets/photos/blossom5.jpg" alt="" loading="lazy">
+    <div class="future-inner">
+      <h2 class="section-title reveal">ہمارا آنے والا کل</h2>
+      <p class="section-sub reveal">ان شاء اللہ، سب اچھا ہوگا — سب ٹھیک ہوگا</p>
+      <div class="rings reveal" aria-hidden="true">
+        <svg viewBox="0 0 160 100">
+          <circle cx="60" cy="58" r="30" fill="none" stroke="#e8b84a" stroke-width="7"/>
+          <circle cx="100" cy="58" r="30" fill="none" stroke="#f2cf72" stroke-width="7"/>
+          <path d="M60 20 l-8 -10 h16z" fill="#fff" stroke="#f6a5c0" stroke-width="2"/>
+        </svg>
+      </div>
+      <ul class="dreams">
+        <li class="reveal"><i>💍</i><div><b>ہماری شادی</b><span>ان شاء اللہ، وہ دن ضرور آئے گا جب تم ہمیشہ کے لیے میری ہو جاؤ گی۔</span></div></li>
+        <li class="reveal"><i>🏡</i><div><b>ہمارا اپنا گھر</b><span>ایک چھوٹا سا گھر، بہت سا پیار، اور کھڑکی کے باہر چیری کا درخت۔</span></div></li>
+        <li class="reveal"><i>✈️</i><div><b>ساتھ میں دنیا دیکھنا</b><span>ہر نئی جگہ، ہر نیا سفر — بس تمہارا ہاتھ میرے ہاتھ میں ہو۔</span></div></li>
+        <li class="reveal"><i>🤲</i><div><b>ہر حال میں ساتھ</b><span>خوشی ہو یا غم، ہم ہمیشہ ایک دوسرے کے ساتھ رہیں گے۔</span></div></li>
+        <li class="reveal"><i>🌸</i><div><b>بہترین کی امید</b><span>اللہ پر بھروسہ ہے، ہمارا آگے سب کچھ بہت خوبصورت ہوگا۔</span></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FINALE -->
+  <section class="finale" id="finale">
+    <svg class="teddy finale-teddy" aria-hidden="true"><use href="#teddy"/></svg>
+    <h2 class="ily reveal">آئی لو یو <span class="her-name"></span></h2>
+    <p class="ily-sub reveal">تم میری کل کائنات ہو 💗</p>
+    <button class="hug" id="hug">
+      <span class="hug-heart">💗</span>
+      <span>جپھی بھیجو 🤗</span>
+    </button>
+    <p class="from reveal">لو یو — <b class="my-name"></b> کی طرف سے ڈھیروں پیار 💌</p>
+    <button class="btn ghost" id="again">شروع سے دوبارہ 🌸</button>
+    <p class="credits">تصاویر: Unsplash · گانا: دلربا دلنشیں</p>
+  </section>
+</main>
+
+<!-- floating controls -->
+<div class="controls" id="controls" hidden>
+  <button class="ctl music" id="musicBtn" aria-label="گانا روکو / چلاؤ" title="گانا">
+    <span class="disc">🎵</span>
+  </button>
+  <button class="ctl" id="autoBtn" aria-label="خودکار اسکرول" title="خودکار اسکرول">⏸</button>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+<div class="lightbox" id="lightbox" hidden><img alt=""><p></p></div>
+
+<audio id="song" src="assets/song.mp3" preload="auto" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
